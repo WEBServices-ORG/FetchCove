@@ -12,6 +12,8 @@
   <a href="https://github.com/WEBServices-ORG/FetchCove/releases/download/v0.9.911-rc.2/FetchCove-v0.9.911-rc.2-arm64.zip">ZIP</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/WEBServices-ORG/FetchCove/releases/tag/v0.9.911-rc.2">Release notes</a>
+  &nbsp;·&nbsp;
+  <a href="https://webservices-org.github.io/FetchCove/">Website</a>
 </p>
 
 **Release candidate v0.9.911 RC 2 (build 19).** The app is signed with Developer ID and notarized by Apple. It targets macOS 14 or later on Apple Silicon. Runtime testing on macOS 14, spoken VoiceOver checks, and broader yt-dlp option testing are still in progress.

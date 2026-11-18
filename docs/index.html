@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FetchCove — Your media, your way</title>
+  <meta name="description" content="A native Mac home for yt-dlp. Save video and audio, split chapters, match subtitles, and work with the full download-engine option catalog.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="assets/fetchcove.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap site-header">
+  <a class="brand" href="./"><img src="assets/fetchcove.svg" width="40" height="40" alt="">FetchCove</a>
+  <nav aria-label="Main navigation"><a href="#features">Features</a><a href="#workflow">How it works</a><a href="#support">Support</a></nav>
+</header>
+<main id="main" class="wrap">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <img class="hero-icon" src="assets/fetchcove.svg" width="112" height="112" alt="FetchCove red wave mark">
+      <p class="eyebrow">A WEBServices Mac utility</p>
+      <h1 id="hero-title">Bring your<br>media home.</h1>
+      <p class="intro">Save video and audio in the formats you want. Turn chapters into separate files, keep matching subtitles, and reach the full yt-dlp option catalog from a native Mac interface.</p>
+      <div class="actions">
+        <a class="button primary" data-release-action="download" href="https://github.com/WEBServices-ORG/FetchCove/releases/download/v0.9.911-rc.2/FetchCove-v0.9.911-rc.2-arm64.dmg">Download for Mac <span aria-hidden="true">↓</span></a>
+        <a class="button secondary" href="https://www.paypal.com/ncp/payment/VRVYW4BB3CH3L" target="_blank" rel="noopener noreferrer">Support development <span aria-hidden="true">♡</span></a>
+      </div>
+      <p class="small">v0.9.911 RC 2 · Apple Silicon · Apple-notarized DMG<br>Targets macOS 14 or later. macOS 14 testing is in progress.</p>
+    </div>
+    <figure class="hero-art">
+      <div class="workflow-art" role="img" aria-label="Workflow illustration: one media link, video and audio, separate chapters and matching English SRT files.">
+        <div class="art-top"><span class="window-dots" aria-hidden="true">● ● ●</span><span>FetchCove</span><span class="art-badge">Local files</span></div>
+        <div class="art-body">
+          <p class="eyebrow">One link. Your choices.</p><h2>Your media,<br>your way.</h2>
+          <div class="art-link">Media link <span aria-hidden="true">↗</span></div>
+          <div class="art-choices"><div><span aria-hidden="true">▣</span><strong>Video</strong><small>Maximum-quality MP4</small></div><div><span aria-hidden="true">♫</span><strong>Audio</strong><small>MP3 or original audio</small></div></div>
+          <div class="art-row"><span>Chapters</span><strong>Separate files</strong></div>
+          <div class="art-row"><span>Subtitles</span><strong>Matching English SRT</strong></div>
+          <div class="art-action">Save to your Mac <span aria-hidden="true">↓</span></div>
+        </div>
+      </div>
+      <figcaption>Workflow illustration · choose your outputs before downloading.</figcaption>
+    </figure>
+  </section>
+  <section id="download" class="release-panel" aria-labelledby="release-title">
+    <div><p class="eyebrow">Release candidate</p><h2 id="release-title">Install FetchCove.</h2><p>Open the DMG and drag FetchCove into Applications. Install yt-dlp and FFmpeg separately, then verify their paths in Tools &amp; Updates.</p></div>
+    <a class="button secondary" href="https://github.com/WEBServices-ORG/FetchCove/releases/tag/v0.9.911-rc.2">Release notes &amp; ZIP <span aria-hidden="true">↗</span></a>
+  </section>
+  <section id="features" class="section">
+    <p class="eyebrow">Simple when you want. Detailed when you need.</p><h2>The files you came for.</h2>
+    <div class="features">
+      <article><span class="number">01 / FORMATS</span><h3>Video, audio, or both</h3><p>Choose maximum-quality MP4, a resolution cap, original audio, or 320 kbps MP3. Save the full recording, separate chapters, or both from one source download.</p></article>
+      <article><span class="number">02 / CHAPTERS</span><h3>Keep the moments</h3><p>Split a recording into named chapter files. Choose fast source-preserving cuts or precise re-encoded cuts, with the tradeoff visible before you start.</p></article>
+      <article><span class="number">03 / CAPTIONS</span><h3>Subtitles that belong</h3><p>Save matching SRT files with timestamps starting at zero for each chapter. Prefer original captions, identify automatic captions, and see when requested subtitles are unavailable.</p></article>
+    </div>
+  </section>
+  <section id="workflow" class="section">
+    <p class="eyebrow">Two ways to work</p><h2>Start with a link.<br>Go as deep as you like.</h2>
+    <p class="section-intro">A focused download workspace for everyday media, with a separate place for the engine's detailed options.</p>
+    <div class="screenshot-grid">
+      <article class="detail-card"><p class="eyebrow">Quick download</p><h3>Choose. Download. Keep.</h3><ol><li>Paste a media link and inspect the source.</li><li>Choose format, quality, chapters and subtitles.</li><li>Save verified files to your chosen folder.</li></ol></article>
+      <article class="detail-card"><p class="eyebrow">All options</p><h3>Your engine. Your controls.</h3><p>Search the installed engine's option catalog, including aliases and legacy options. Add repeated arguments, set their order, review the command and follow live output.</p><p>Use explicit stable-tool updates and refresh the catalog when the engine changes.</p></article>
+    </div>
+    <figure class="app-capture">
+      <img src="assets/fetchcove-all-options.jpg" width="2000" height="1356" loading="lazy" data-app-screenshot alt="FetchCove All options workspace showing a completed local download-engine version command, with command and output controls.">
+      <figcaption>All options workspace · actual FetchCove app capture.</figcaption>
+    </figure>
+  </section>
+  <section class="quiet-panel">
+    <h2>Keep your files.<br>Keep your place.</h2>
+    <div><p>Choose whether to remember each job. Saved execution details stay in macOS Keychain; history never starts a download automatically. Review an interrupted job before retrying it, and forget a record without deleting your media.</p><p>Missing subtitles and interrupted work stay visible. Available formats, captions and chapters depend on the source.</p><a href="privacy.html">Data and privacy <span aria-hidden="true">→</span></a></div>
+  </section>
+  <section id="support" class="section">
+    <p class="eyebrow">Independent Mac software</p><h2>Help keep FetchCove moving.</h2><p class="section-intro">Report a problem, suggest an improvement, or support continued development.</p>
+    <div class="actions"><a class="button support-accent" href="https://www.paypal.com/ncp/payment/VRVYW4BB3CH3L" target="_blank" rel="noopener noreferrer">Support development <span aria-hidden="true">♡</span></a><a class="button secondary" href="mailto:beacons_mobile_9k@icloud.com">Email support</a></div>
+  </section>
+</main>
+<footer class="wrap site-footer"><span>A WEBServices product</span><nav aria-label="Related products, privacy and support"><a href="https://webservices-org.github.io/gaindeck/">GainDeck</a><a href="https://webservices-org.github.io/update-shelf/">Update Shelf</a><a href="third-party-notices.txt">Third-party notices</a> <a href="privacy.html">Privacy</a><a href="https://www.paypal.com/ncp/payment/VRVYW4BB3CH3L" target="_blank" rel="noopener noreferrer">Support development</a></nav><span>© 2026 WEBServices</span></footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="FetchCove wave mark">
+  <rect width="128" height="128" rx="32" fill="#780a17"/>
+  <g fill="none" stroke="#a8a8a8" stroke-width="7" stroke-linecap="round">
+    <path d="M30 43c11-14 21 14 34 0s23 14 34 0"/>
+    <path d="M30 64c11-14 21 14 34 0s23 14 34 0"/>
+    <path d="M30 85c11-14 21 14 34 0s23 14 34 0"/>
+  </g>
+</svg>
